@@ -17,7 +17,7 @@
 }
 .search_container {
   position: relative;
-  left: 40px;
+  left: 60px;
 }
 .search_container > img {
   position: absolute;
@@ -81,6 +81,7 @@
 .profile_image_one {
   width: 40px;
   height: 40px;
+  object-fit: contain;
   filter: drop-shadow(0px 2px 8px rgba(101, 98, 98, 0.4));
 }
 .profile_image_two {
@@ -109,5 +110,12 @@
     padding: 0px 55px;
     min-width: 300px;
     height: 44px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .search_container > input {
+    min-width: unset;
+    width: 159px;
   }
 }

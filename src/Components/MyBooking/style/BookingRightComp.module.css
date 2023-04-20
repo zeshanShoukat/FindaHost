@@ -1,0 +1,563 @@
+.right_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right_first_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 48px;
+  background: #ffffff;
+  border-radius: 12px;
+  width: 100%;
+  height: 142px;
+}
+.profile_header {
+  display: flex;
+  align-items: center;
+}
+.profile_header > img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.profile_text {
+  margin-left: 10px;
+}
+.profile_text > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  color: #151515;
+}
+.profile_text > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #828282;
+}
+.commu_container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.call_container {
+  width: 36px;
+  height: 36px;
+  background: rgba(33, 191, 112, 0.21);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call_container > img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.message_container {
+  width: 36px;
+  height: 36px;
+
+  background: rgba(76, 164, 227, 0.18);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message_container > img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.right_second_container {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 16px 0px 0px 0px;
+}
+.right_second_container > h2 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #180344;
+  margin: 20px 20px;
+}
+
+.house_container {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px;
+  gap: 10px;
+}
+.house_container > img {
+  width: 139px;
+  height: 106px;
+}
+
+.house_wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status_container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 9px;
+  gap: 8px;
+  width: 98px;
+  height: 22px;
+  background: rgba(11, 167, 120, 0.15);
+  border-radius: 6px;
+}
+.status_container > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #0ba778;
+}
+
+.house_wrapper > h2 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #151515;
+}
+
+.location_container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.location_container > img {
+  width: 20px;
+  height: 20px;
+}
+.location_container > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #828282;
+}
+
+.house_wrapper > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #6e47ff;
+}
+
+.sub_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.place_container {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #d9d9d9;
+  padding-right: 20px;
+}
+.place_container > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.place_container > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.place_container_2 {
+  display: flex;
+  align-items: center;
+}
+.place_container_2 > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.place_container_2 > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.check_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 14px;
+}
+.sub_check_container {
+  background: #ffffff;
+  width: 180px;
+  height: 141px;
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #e5e5e4;
+  gap: 12px;
+  border-radius: 6px;
+}
+.sub_check_container > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #828282;
+}
+.sub_check_container > h3 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #151515;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e5e5e4;
+}
+
+.sub_check_container > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #828282;
+  margin-top: -4px;
+}
+
+.last_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #efedfa;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 0px 0px 12px 12px;
+}
+.last_left_container {
+  display: flex;
+  align-items: center;
+}
+
+.last_left_container > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #151515;
+}
+.last_container > h2 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #3523c3;
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  width: 100%;
+  margin: 10px;
+}
+.first_button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  border: 1px solid #180344;
+  border-radius: 6px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #180344;
+  width: 100%;
+  height: 48px;
+}
+.second_button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  background: #180344;
+  border-radius: 6px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fdf7fa;
+  width: 100%;
+  height: 48px;
+  border: none;
+}
+
+@media screen and (max-width: 1700px) {
+  .sub_check_container {
+    width: 140px;
+    height: 120px;
+  }
+  .place_container {
+    padding-right: 10px;
+  }
+  .place_container > span {
+    font-size: 12px;
+  }
+  .place_container > p {
+    font-size: 12px;
+  }
+  .place_container_2 > span {
+    font-size: 12px;
+  }
+  .place_container_2 > p {
+    font-size: 12px;
+  }
+  .sub_check_container > span {
+    font-size: 10px;
+  }
+  .sub_check_container > p {
+    font-size: 11px;
+  }
+  .sub_check_container > h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .location_container > img {
+    width: 14px;
+    height: 14px;
+  }
+  .location_container > span {
+    font-size: 12px;
+  }
+  .house_wrapper > span {
+    font-size: 14px;
+  }
+
+  .profile_header > img {
+    width: 40px;
+    height: 40px;
+  }
+  .profile_text > p {
+    font-size: 10px;
+    margin-bottom: -5px;
+    line-height: 12px;
+  }
+  .profile_text > span {
+    font-size: 10px;
+  }
+  .commu_container {
+    gap: 4px;
+  }
+  .call_container {
+    width: 28px;
+    height: 28px;
+  }
+  .call_container > img {
+    width: 14px;
+    height: 14px;
+  }
+  .message_container {
+    width: 28px;
+    height: 28px;
+  }
+  .message_container > img {
+    width: 14px;
+    height: 14px;
+  }
+  .house_container {
+    margin: 20px 10px;
+    gap: 6px;
+  }
+  .house_container > img {
+    width: 129px;
+    height: 100px;
+  }
+  .status_container {
+    width: 70px;
+  }
+  .status_container > span {
+    font-size: 7px;
+  }
+
+  .house_wrapper > h2 {
+    font-size: 14px;
+  }
+
+  .place_container > span {
+    font-size: 10px;
+  }
+  .place_container > p {
+    font-size: 10px;
+  }
+
+  .place_container_2 > span {
+    font-size: 10px;
+  }
+  .place_container_2 > p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .location_container > img {
+    width: 20px;
+    height: 20px;
+  }
+  .location_container > span {
+    font-size: 14px;
+  }
+  .house_wrapper > span {
+    font-size: 16px;
+  }
+  .sub_check_container > span {
+    font-size: 14px;
+  }
+  .sub_check_container > p {
+    font-size: 16px;
+  }
+  .sub_check_container > h3 {
+    font-size: 18px;
+  }
+  .last_left_container > p {
+    font-size: 16px;
+  }
+  .last_container > h2 {
+    font-size: 20px;
+  }
+  .profile_header > img {
+    width: 60px;
+    height: 60px;
+  }
+  .profile_text > p {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: unset;
+  }
+  .profile_text > span {
+    font-size: 14px;
+  }
+  .commu_container {
+    gap: 10px;
+  }
+  .call_container {
+    width: 36px;
+    height: 36px;
+  }
+  .call_container > img {
+    width: 20px;
+    height: 20px;
+  }
+  .message_container {
+    width: 36px;
+    height: 36px;
+  }
+  .message_container > img {
+    width: 20px;
+    height: 20px;
+  }
+  .house_container {
+    margin: 20px 20px;
+    gap: 6px;
+  }
+  .house_container > img {
+    width: 140px;
+    height: 106px;
+  }
+  .status_container {
+    width: 100px;
+  }
+  .status_container > span {
+    font-size: 10px;
+  }
+
+  .house_wrapper > h2 {
+    font-size: 16px;
+  }
+
+  .place_container > span {
+    font-size: 12px;
+  }
+  .place_container > p {
+    font-size: 12px;
+  }
+
+  .place_container_2 > span {
+    font-size: 12px;
+  }
+  .place_container_2 > p {
+    font-size: 12px;
+  }
+}

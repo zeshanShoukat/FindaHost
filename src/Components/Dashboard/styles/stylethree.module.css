@@ -1,0 +1,136 @@
+.main_container {
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.main_container::-webkit-scrollbar {
+  display: none;
+}
+
+.main_container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.head_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+  width: 100%;
+}
+.head_container > h2 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #180344;
+}
+.head_container > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #6e47ff;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px 0px 14px;
+}
+.wrapper_text {
+  display: flex;
+  align-items: center;
+  max-width: 280px;
+  overflow: hidden;
+}
+.wrapper_text > img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.text_container_2 {
+  padding: 4px;
+}
+.text_container_2 > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.message {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #828282;
+}
+
+.message_pop {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.view_container_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px;
+  gap: 8px;
+  width: 24px;
+  height: 24px;
+  background: #16efa7;
+  border-radius: 32px;
+}
+.view_container_2 > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1600px) {
+  .wrapper_text {
+    padding: 4.3px 0px;
+  }
+  .wrapper_text > img {
+    width: 30px;
+    height: 30px;
+  }
+  .text_container_2 {
+    padding: 0px 0px 0px 4px;
+  }
+  .text_container_2 > p {
+    font-size: 12px;
+    margin-bottom: -4px;
+  }
+  .text_container_2 > span {
+    font-size: 12px;
+  }
+  .view_container_2 > span {
+    font-size: 14px;
+  }
+}

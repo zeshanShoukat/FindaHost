@@ -3,7 +3,8 @@ import "./App.css";
 import LoginScreen from "./Screens/AuthScreens/LoginScreen";
 import RegisterScreen from "./Screens/AuthScreens/RegisterScreen";
 import WelcomeScreen from "./Screens/AuthScreens/WelcomeScreen";
-import DashboardScreen from "./Screens/Dashboard/DashboardScreen";
+import DashboardScreen from "./Screens/DashboardScreens/DashboardScreen";
+import MyBookingScreen from "./Screens/MyBookingScreens/MyBookingScreen";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/login" element={<LoginScreen />} />
           <Route exact path="/register" element={<RegisterScreen />} />
           <Route exact path="/dashboard" element={<DashboardScreen />} />
+          <Route exact path="/mybooking" element={<MyBookingScreen />} />
         </Routes>
       </BrowserRouter>
     </>
