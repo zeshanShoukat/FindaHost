@@ -1,0 +1,113 @@
+.navbar_container {
+  height: 96px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(166, 165, 169, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first_container {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.first_container > img {
+  width: 250px;
+  height: 36px;
+}
+.search_container {
+  position: relative;
+  left: 40px;
+}
+.search_container > img {
+  position: absolute;
+  z-index: 999;
+  left: 22px;
+  top: 14px;
+}
+.search_container > input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 55px;
+  gap: 8px;
+  min-width: 536px;
+  height: 48px;
+  opacity: 0.99;
+  border: 1px solid #f2f2f2;
+  border-radius: 48px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #bdbdbd;
+}
+.second_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -2%;
+  gap: 10px;
+}
+.bell_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #f2f2f2;
+  border-radius: 46px;
+  position: relative;
+}
+.bell_image_two {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+}
+.profile_container {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px 4px 4px;
+  gap: 8px;
+  width: 84px;
+  height: 48px;
+  border: 1px solid #f2f2f2;
+  border-radius: 70px;
+}
+.profile_image_one {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0px 2px 8px rgba(101, 98, 98, 0.4));
+}
+.profile_image_two {
+  width: 20px;
+  height: 20px;
+}
+.logout_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 48px;
+  height: 48px;
+  background: #ffeaea;
+  border-radius: 46px;
+}
+.logout_container > img {
+  width: 23px;
+  height: 23px;
+}
+
+@media screen and (max-width: 1100px) {
+  .search_container > input {
+    padding: 0px 55px;
+    min-width: 300px;
+    height: 44px;
+  }
+}
