@@ -18,8 +18,13 @@ function App() {
           <Route exact path="/register" element={<RegisterScreen />} />
           <Route exact path="/dashboard" element={<DashboardScreen />} />
           <Route exact path="/mybooking" element={<MyBookingScreen />} />
-          <Route exact path="/browsehost" element={<BrowseHostScreen />} />
+          <Route exact path="/browsehost" element={<BrowseHostScreen />} />    
         </Routes>
+
+
+
+
+        
       </BrowserRouter>
     </>
   );
