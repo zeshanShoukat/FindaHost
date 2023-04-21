@@ -12,6 +12,8 @@ const DashboardSecComp = () => {
       name: "Ahmad rizaldi",
       email: "Ahmadrizaldi@gmail.com",
     },
+
+    
     {
       image: profile6,
       name: "wadreen joyuk",
