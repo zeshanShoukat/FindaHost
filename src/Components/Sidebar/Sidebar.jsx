@@ -18,8 +18,9 @@ import listingicon from "../../Assets/SidebarAssets/listingicon.svg";
 import marketplaceicon from "../../Assets/SidebarAssets/marketplaceicon.svg";
 import messageicon from "../../Assets/SidebarAssets/messageicon.svg";
 import schedualeicon from "../../Assets/SidebarAssets/schedualeicon.svg";
+import settingactiveicon from "../../Assets/SidebarAssets/settingactiveicon.svg";
+import settingicon from "../../Assets/SidebarAssets/settingicon.svg";
 import supporticon from "../../Assets/SidebarAssets/supporticon.svg";
-
 // stylesheet-----------
 import classes from "./Sidebar.module.css";
 
@@ -71,31 +72,69 @@ const Sidebar = () => {
   ];
   return (
     <div className={classes.sidebar_container}>
-      {sidebar_links.map((e) => (
+      {/* first tabs container */}
+      <div>
+        {sidebar_links.map((e) => (
+          <div
+            className={
+              isLinkActive === e.link_text
+                ? classes.sidebar_active_wrapper
+                : classes.sidebar_wrapper
+            }
+            onClick={() => setIsLinkActive(e.link_text)}
+            key={e.link_text}
+          >
+            {isLinkActive === e.link_text && (
+              <img
+                src={activeline}
+                alt="error"
+                className={classes.activeline}
+              />
+            )}
+            <img
+              src={
+                isLinkActive === e.link_text
+                  ? e.link_active_image
+                  : e.link_image
+              }
+              alt="error"
+              className={classes.link_image}
+            />
+            <span>{e.link_text}</span>
+          </div>
+        ))}
+      </div>
+      {/* second tabs container */}
+      <div className={classes.support_container}>
         <div
           className={
-            isLinkActive === e.link_text
+            isLinkActive === "Settings"
               ? classes.sidebar_active_wrapper
               : classes.sidebar_wrapper
           }
-          onClick={() => setIsLinkActive(e.link_text)}
-          key={e.link_text}
+          onClick={() => setIsLinkActive("Settings")}
         >
-          {isLinkActive === e.link_text && (
+          {isLinkActive === "Settings" && (
             <img src={activeline} alt="error" className={classes.activeline} />
           )}
           <img
-            src={
-              isLinkActive === e.link_text ? e.link_active_image : e.link_image
-            }
+            src={isLinkActive === "Settings" ? settingactiveicon : settingicon}
             alt="error"
             className={classes.link_image}
-          />{" "}
-          <span>{e.link_text}</span>
+          />
+          <span>Settings</span>
         </div>
-      ))}
-      <div className={classes.support_container}>
-        <div className={classes.sidebar_wrapper}>
+        <div
+          className={
+            isLinkActive === "Help & Support"
+              ? classes.sidebar_active_wrapper
+              : classes.sidebar_wrapper
+          }
+          onClick={() => setIsLinkActive("Help & Support")}
+        >
+          {isLinkActive === "Help & Support" && (
+            <img src={activeline} alt="error" className={classes.activeline} />
+          )}
           <img src={supporticon} alt="error" /> <span>Help & Support</span>
         </div>
       </div>
