@@ -1,0 +1,134 @@
+.main_container {
+  display: flex;
+}
+.right_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+}
+.welcome_container {
+  height: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.welcome_container > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #180344;
+}
+
+.dropdown_container {
+  display: flex;
+  gap: 10px;
+  margin-top: -4px;
+}
+.dropdown_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  width: auto;
+  height: 40px;
+  background: #f7f6f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+.dropdown_wrapper > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #151515;
+}
+.dropdown_wrapper > img {
+  width: 13px;
+  height: 7px;
+}
+.right_sub_container {
+  background: #f7f6f9;
+  box-shadow: 0px 0px 24px rgba(166, 165, 169, 0.08);
+  border-radius: 12px;
+  padding: 14px 14px 14px 14px;
+  margin-top: -30px;
+}
+
+.left_wrapper_text {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 20px 20px;
+}
+
+.left_wrapper_text > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #180344;
+}
+
+.left_wrapper_text > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #6e47ff;
+}
+
+.left_wrapper_text_2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left_wrapper_text_2 > p {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #180344;
+}
+
+.left_wrapper_text_2 > span {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #6e47ff;
+}
+
+.left_wrapper {
+  padding: 0px 10px;
+}
+
+.adimage_container {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.adimage_container > img {
+  width: 100%;
+  object-fit: contain;
+}
