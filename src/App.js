@@ -6,6 +6,7 @@ import WelcomeScreen from "./Screens/AuthScreens/WelcomeScreen";
 import BrowseHostScreen from "./Screens/BrowseHostScreens/BrowseHostScreen";
 import DashboardScreen from "./Screens/DashboardScreens/DashboardScreen";
 import MyBookingScreen from "./Screens/MyBookingScreens/MyBookingScreen";
+import ScreenFourteen from "./Screens/ScreenFourteen/ScreenFourteen";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/dashboard" element={<DashboardScreen />} />
           <Route exact path="/mybooking" element={<MyBookingScreen />} />
           <Route exact path="/browsehost" element={<BrowseHostScreen />} />
+          <Route exact path="/screenfourteen" element={<ScreenFourteen />} />
         </Routes>
       </BrowserRouter>
     </>

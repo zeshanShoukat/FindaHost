@@ -1,0 +1,124 @@
+.profileCard {
+    position: relative;
+    text-align: center;
+}
+
+.ProfileImg img {
+    position: absolute;
+    width: 130px;
+    margin-top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.userName h4 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Helvetica';
+    line-height: 27px;
+}
+.rating p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Helvetica';
+    line-height: 16.1px;
+}
+.rating p img {
+    margin-top: 3px;
+    position: relative;
+    top: 1px;
+    width: 15px;
+    height: 15px;
+}
+.propertyhosted {
+    background: rgba(241, 235, 255, 0.8);
+    padding: 8px 16px;
+    border-radius: 24px;
+    width: 180px;
+    height: 35px;
+    margin: 10px auto;
+}
+.propertyhosted p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3523C3;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.contentDetails p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 193% */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    /* Gray 3 */
+    
+    color: #828282;
+}
+.icons {
+    border-bottom: 1px solid #E0E0E0;
+   padding: 10px 0px 20px 0px;
+
+}
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 0px 0px;
+}
+.location p.name{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    letter-spacing: 0.04em;
+    
+    /* Secondary/Gray 3 */
+    
+    color: #828282;
+}
+.location p.city{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+/* identical to box height, or 169% */
+
+text-transform: capitalize;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+.icons img {
+width: 25px;
+height: 25px;
+margin: 0px 8px;
+}
+.cardBottomIcons {
+    background: #F0EEFF;
+    padding: 10px 0px;
+}
+.cardBottomIcons img {
+
+    margin: 0px 15px;
+}
+
+@media screen and (min-width:1360px){
+    .userName h4 {
+        margin-top: 60px;
+    }
+}
