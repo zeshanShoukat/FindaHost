@@ -6,6 +6,7 @@
     gap: 10px;
   }
   .wrapper {
+    
     background: #33c587;
     border-radius: 12px;
     display: flex;
@@ -52,11 +53,14 @@
   }
   
   .text_container {
+     cursor: pointer;
     display: flex;
     align-items: center;
+    
     gap: 10px;
   }
   .text_container > h2 {
+    
     font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;

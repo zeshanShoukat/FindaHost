@@ -66,12 +66,12 @@ const DashboardFourthComp = () => {
               <span
                 onClick={() => setIsTabActive(e)}
                 className={
-                  e == isTabActive ? classes.tab_text_active : classes.tab_text
+                  e === isTabActive ? classes.tab_text_active : classes.tab_text
                 }
               >
                 {e}
               </span>
-              {e == isTabActive && <img src={tabline} alt="error" />}
+              {e === isTabActive && <img src={tabline} alt="error" />}
             </div>
           ))}
         </div>

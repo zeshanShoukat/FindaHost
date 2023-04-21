@@ -1,10 +1,10 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import addicon from "../../Assets/DashboardAssets/addicon.svg";
-import DashboardFirstComp from "../../Components/Dashboard/DashboardFirstComp";
-import DashboardFourthComp from "../../Components/Dashboard/DashboardFourthComp";
-import DashboardSecComp from "../../Components/Dashboard/DashboardSecComp";
-import DashboardThirdComp from "../../Components/Dashboard/DashboardThirdComp";
+// import addicon from "../../Assets/DashboardAssets/addicon.svg";
+// import DashboardFirstComp from "../../Components/Dashboard/DashboardFirstComp";
+// import DashboardFourthComp from "../../Components/Dashboard/DashboardFourthComp";
+// import DashboardSecComp from "../../Components/Dashboard/DashboardSecComp";
+// import DashboardThirdComp from "../../Components/Dashboard/DashboardThirdComp";
 import BookingCardComp from "../../Components/MyBooking/BookingCardComp";
 import BookingRightComp from "../../Components/MyBooking/BookingRightComp";
 import Navbar from "../../Components/Navbar/Navbar";
